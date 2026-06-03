@@ -311,7 +311,7 @@ section {
         min-height: unset;
         padding: 120px 0 60px 0; /* Provides breathing room instead of forced locks */
     }
-    
+
     .header-hidden {
         transform: translateY(-100%);
     }
@@ -394,18 +394,6 @@ img {
     padding-top: 80px;
     border-radius: 0 0 var(--border-radius) var(--border-radius);
     overflow: hidden;
-}
-
-
-.hero::after {
-    content: '';
-    position: absolute;
-    top: -50px;
-    left: -50px;
-    width: 200px;
-    height: 200px;
-    background-color: var(--primary-light);
-    border-radius: 50%;
 }
 
 .hero-content h1 {
@@ -670,16 +658,7 @@ img {
     background: linear-gradient(135deg, #e9f2ff 0%, #f5f5f5 100%);
 }
 
-.why-choose-us::before {
-    content: '';
-    position: absolute;
-    top: 50px;
-    right: -50px;
-    width: 100px;
-    height: 100px;
-    background-color: var(--secondary-light);
-    border-radius: 50%;
-}
+
 
 .features-grid {
     display: grid;
